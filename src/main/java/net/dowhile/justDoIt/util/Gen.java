@@ -36,22 +36,6 @@ public class Gen {
 
 //        sqlManager.genPojoCode("girl","net.dowhile.justDoIt.model",config);
 //        sqlManager.genSQLFile("girl");
-        //sqlManager.genPojoCode("xunjian","com.sxlq.informationCenter.entity",config);
-        //sqlManager.genSQLFile("xunjian");
 
-//        sqlManager.genPojoCode("shebeiweixiu","com.sxlq.informationCenter.entity",config);
-//        sqlManager.genSQLFile("shebeiweixiu");
-
-
-        //sqlManager.genPojoCode("shebeibaoyang","com.sxlq.informationCenter.entity",config);
-        //sqlManager.genSQLFile("shebeibaoyang");
-
-
-        //sqlManager.genPojoCode("column2","com.sxlq.jd.MCS.entity",config);
-        //sqlManager.genSQLFile("column2");
-
-
-        //sqlManager.genPojoCode("article","com.sxlq.jd.MCS.entity",config);
-        //sqlManager.genSQLFile("article");
     }
 }
