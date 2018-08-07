@@ -5,7 +5,7 @@ import java.sql.Timestamp;
 
 /* 
 * 
-* gen by beetlsql 2018-08-06
+* gen by beetlsql 2018-08-07
 */
 public class Girl  {
 	

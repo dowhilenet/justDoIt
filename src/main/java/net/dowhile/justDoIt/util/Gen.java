@@ -26,11 +26,12 @@ public class Gen {
             @Override
             public boolean accept(String s) {
                 //仅生成 user 表
-                if(s.equalsIgnoreCase("girl")) {
-                    return true;
-                }else{
-                    return false;
-                }
+//                if(s.equalsIgnoreCase("girl")) {
+//                    return true;
+//                }else{
+//                    return false;
+//                }
+                return true;
             }
         });
 

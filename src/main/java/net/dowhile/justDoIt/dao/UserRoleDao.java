@@ -9,6 +9,6 @@ import net.dowhile.justDoIt.model.*;
 * 
 * gen by beetlsql mapper 2018-08-07
 */
-public interface GirlDao extends BaseMapper<Girl> {
+public interface UserRoleDao extends BaseMapper<UserRole> {
 	
 }
