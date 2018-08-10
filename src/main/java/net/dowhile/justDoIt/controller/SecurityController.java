@@ -8,24 +8,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class SecurityController {
-    @Bean
-    public BCryptPasswordEncoder bCryptPasswordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
-    @GetMapping("/login")
-    public String login(String error) {
-        return "login.html";
-    }
+	@Bean
+	public BCryptPasswordEncoder bCryptPasswordEncoder() {
+		return new BCryptPasswordEncoder();
+	}
 
-    @GetMapping("/loginError.html")
-    public String logerror(Model model) {
-        model.addAttribute("error","用户名或密码错误");
-        return "error.html";
-    }
+	@GetMapping("/login")
+	public String login(String error) {
+		return "login.html";
+	}
 
+	@GetMapping("/loginError.html")
+	public String logerror(Model model) {
+		model.addAttribute("error", "用户名或密码错误");
+		return "error.html";
+	}
 
-    @GetMapping("/")
-    public String index() {
-        return "index.html";
-    }
+	@GetMapping("/")
+	public String index(Model model) {
+		model.addAttribute("hello","Hi,Just Do It.");
+		return "index.html";
+	}
 }
