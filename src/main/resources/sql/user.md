@@ -1,6 +1,6 @@
 findUserByName
 ==============
-    select * from user where username=#name#
+    select u.* from user u where username=#name#
 
 sample
 ===
